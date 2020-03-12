@@ -1,9 +1,12 @@
 import React from 'react';
+import SongApp from './SongApp';
+import { selectSong } from '../Actions';
 
 class App extends React.Component {
+
   render() {
     return (
-      <div>My App</div>
+      <SongApp />
     )
   }
 }
