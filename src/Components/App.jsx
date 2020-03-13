@@ -1,10 +1,8 @@
 import React from 'react';
-// import SongApp from './SongApp';
 import SongList from './SongList';
 
-class App extends React.Component {
-
-  render() {
+const App = () => {
+ 
     return (
       <div className="ui container grid">
         <div className="ui row">
@@ -14,7 +12,6 @@ class App extends React.Component {
         </div>
       </div>
     )
-  }
 }
 
 export default App;

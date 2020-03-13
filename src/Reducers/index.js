@@ -10,6 +10,8 @@ const songsReducer = () => {
 };
 
 const selectedSongReducer = (selectedSong = null, action) => {
+  // default selectedSong to 'null' to indicate no song selected on app startup
+  
   if (action.type === 'SONG_SELECTED') {
     return action.payload;
   }
